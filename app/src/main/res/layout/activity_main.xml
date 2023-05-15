@@ -31,6 +31,7 @@
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="@string/nastya_savochkina"
         android:textStyle="bold"
         android:textSize="@dimen/prof_name"
@@ -42,6 +43,7 @@
         android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
         android:text="@string/nastyasavochkinan_gmail_com"
         android:textSize="@dimen/email"
         app:layout_constraintEnd_toEndOf="@+id/name"
@@ -68,6 +70,7 @@
             android:drawablePadding="@dimen/pad_ic"
             android:gravity="center_vertical"
             android:text="@string/my_reviews"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textAllCaps="false"
             android:textSize="@dimen/but_text" />
@@ -85,6 +88,7 @@
             android:layout_marginEnd="@dimen/but_marg"
             android:layout_marginTop="@dimen/but_marg_top"
             android:text="@string/account_settings"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textAllCaps="false" />
         <androidx.appcompat.widget.AppCompatButton
@@ -99,6 +103,7 @@
             android:layout_marginStart="@dimen/but_marg"
             android:layout_marginEnd="@dimen/but_marg"
             android:layout_marginTop="@dimen/but_marg_top"
+            android:textColor="@color/black"
             android:text="@string/personal_informations"
             android:textStyle="bold"
             android:textAllCaps="false" />
@@ -115,6 +120,7 @@
             android:layout_marginStart="@dimen/but_marg"
             android:layout_marginEnd="@dimen/but_marg"
             android:layout_marginTop="@dimen/but_marg_top"
+            android:textColor="@color/black"
             android:text="@string/notification"
             android:textStyle="bold"
             android:textAllCaps="false" />
@@ -131,6 +137,7 @@
             android:layout_marginStart="@dimen/but_marg"
             android:layout_marginEnd="@dimen/but_marg"
             android:layout_marginTop="@dimen/but_marg_top"
+            android:textColor="@color/black"
             android:text="@string/fingerprint_settings"
             android:textStyle="bold"
             android:textAllCaps="false" />
