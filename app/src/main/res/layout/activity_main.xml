@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/app_back">
+
+    <ImageView
+        android:id="@+id/top_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:src="@drawable/top_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="@dimen/pic_size"
+        android:layout_height="@dimen/pic_size"
+        android:src="@drawable/profile"
+        app:layout_constraintBottom_toBottomOf="@+id/top_back"
+        app:layout_constraintEnd_toEndOf="@+id/top_back"
+        app:layout_constraintStart_toStartOf="@+id/top_back"
+        app:layout_constraintTop_toBottomOf="@+id/top_back" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nastya_savochkina"
+        android:textStyle="bold"
+        android:textSize="@dimen/prof_name"
+        app:layout_constraintEnd_toEndOf="@+id/profile"
+        app:layout_constraintStart_toStartOf="@+id/profile"
+        app:layout_constraintTop_toBottomOf="@+id/profile"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nastyasavochkinan_gmail_com"
+        android:textSize="@dimen/email"
+        app:layout_constraintEnd_toEndOf="@+id/name"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/cont_marg_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/but_marg"
+            android:layout_marginEnd="@dimen/but_marg"
+            android:background="@drawable/button_1"
+            android:drawableStart="@drawable/ic_1"
+            android:drawablePadding="@dimen/pad_ic"
+            android:gravity="center_vertical"
+            android:text="@string/my_reviews"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="@dimen/but_text" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_1"
+            android:drawableStart="@drawable/ic_2"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/pad_ic"
+            android:textSize="@dimen/but_text"
+            android:layout_marginStart="@dimen/but_marg"
+            android:layout_marginEnd="@dimen/but_marg"
+            android:layout_marginTop="@dimen/but_marg_top"
+            android:text="@string/account_settings"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_1"
+            android:drawableStart="@drawable/ic_3"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/pad_ic"
+            android:textSize="@dimen/but_text"
+            android:layout_marginStart="@dimen/but_marg"
+            android:layout_marginEnd="@dimen/but_marg"
+            android:layout_marginTop="@dimen/but_marg_top"
+            android:text="@string/personal_informations"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_1"
+            android:drawableStart="@drawable/ic_4"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/pad_ic"
+            android:textSize="@dimen/but_text"
+            android:layout_marginStart="@dimen/but_marg"
+            android:layout_marginEnd="@dimen/but_marg"
+            android:layout_marginTop="@dimen/but_marg_top"
+            android:text="@string/notification"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_1"
+            android:drawableStart="@drawable/ic_5"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/pad_ic"
+            android:textSize="@dimen/but_text"
+            android:layout_marginStart="@dimen/but_marg"
+            android:layout_marginEnd="@dimen/but_marg"
+            android:layout_marginTop="@dimen/but_marg_top"
+            android:text="@string/fingerprint_settings"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_2"
+            android:gravity="center"
+            android:textSize="@dimen/but_text"
+            android:textColor="@color/white"
+            android:layout_marginStart="@dimen/back_btn_marg"
+            android:layout_marginEnd="@dimen/back_btn_marg"
+            android:layout_marginTop="@dimen/but_marg_top"
+            android:text="@string/back_to_main_page"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

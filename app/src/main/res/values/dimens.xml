@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="prof_name">17sp</dimen>
+    <dimen name="cont_marg_top">10dp</dimen>
+    <dimen name="email">15sp</dimen>
+    <dimen name="pic_size">100dp</dimen>
+    <dimen name="pad_ic">15dp</dimen>
+    <dimen name="but_marg">35dp</dimen>
+    <dimen name="but_text">16sp</dimen>
+    <dimen name="but_marg_top">20dp</dimen>
+    <dimen name="back_btn_marg">50dp</dimen>
+</resources>

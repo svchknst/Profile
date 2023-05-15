@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="nastya_savochkina">Nastya Savochkina</string>
+    <string name="nastyasavochkinan_gmail_com">nastyasavochkinan@gmail.com</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="account_settings">Account settings</string>
+    <string name="personal_informations">Personal Informations</string>
+    <string name="notification">Notification</string>
+    <string name="fingerprint_settings">Fingerprint Settings</string>
+    <string name="back_to_main_page">Back to Main page</string>
+</resources>
